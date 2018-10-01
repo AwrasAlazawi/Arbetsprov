@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="searchWord.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="searchWord.js"></script>
+
+  	 <meta name="author" content="Awras Abdulsattar">
+    <title>Arbetsprov - Search Word appliction</title>
+  </head>
+    <body>
+
+<div class="container">
+  <img src="img/logo.png" alt="Search logo as " srcset="img/logo.svg">
+  <div class="content">
+    <!-- input type text for search field-->
+   <input  type="text" placeholder="Search Word" id="searchInput" autocomplete="on">
+    <!-- auto complete on from search history-->
+    <button id="btnsearch" onclick="allresult">search</button>
+      <!--All Search result enterd by the user are displayed here-->
+      <table class="searchList" id="searchList">            
+      </table>
+
+    <div id="tempword"></div>
+</div>
+
+  <div id="target">
+    <!-- all divs should append here -->
+    <h1 id="nothing"></h1>
+    
+    <!-- Results  heading -->
+  </div>
+
+</div>
+</body>
+</html>
